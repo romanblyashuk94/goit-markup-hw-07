@@ -1,0 +1,20 @@
+@import './/utils/variables';
+@import './base/resetDefaultStyles';
+@import './base/modernNormalize';
+@import './base/common';
+
+/* common components */
+@import './components/common/button';
+@import './components/common/page-section';
+@import './components/common/logo';
+@import './components/common/header';
+@import './components/common/nav-menu';
+@import './components/common/contact-link';
+@import './components/common/footer';
+@import './components/common/subscribe-form';
+@import './components/common/backdrop';
+@import './components/common/close-button';
+
+/* portfolioPage Components */
+@import './components/portfolioPage/filters-list';
+@import './components/portfolioPage/projects-list';

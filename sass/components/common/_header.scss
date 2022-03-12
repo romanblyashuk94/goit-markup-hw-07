@@ -1,0 +1,22 @@
+/* header styles */
+.header__content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin: 0 93px 0 0;
+}
+
+.header__contacts-list {
+    display: flex;
+}
+.header__contact-item:not(:last-child) {
+    margin-right: 30px;
+}
+.header__contact-link {
+    color: $primaryTextColor;
+    font-weight: 500;
+    padding: 32px 0;
+}

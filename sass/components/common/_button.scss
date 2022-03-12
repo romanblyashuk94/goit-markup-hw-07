@@ -1,0 +1,25 @@
+/* button */
+.button {
+    display: block;
+    margin: 0 auto;
+    min-width: 200px;
+    border-radius: 4px;
+    font-weight: 700;
+    background-color: $accentTextColor;
+    color: $secondaryTextColor;
+    text-align: center;
+    line-height: 1.75;
+    font-size: 16px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 10px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 1px solid $selectedButtonBackground;
+    letter-spacing: 0.06em;
+    
+    &:hover, 
+    &:focus {
+        color: $titleTextColour;
+        background-color: #188CE8;
+    }
+}
+

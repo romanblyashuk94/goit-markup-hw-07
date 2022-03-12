@@ -1,0 +1,31 @@
+/* what we doing */
+.whatWeDoing-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -15px;
+}
+
+.whatWeDoing-list__item {
+    position: relative;
+    margin: 15px;
+}
+
+.whatWeDoing-list__image {
+    display: block;
+    height: 100%;
+}
+
+.whatWeDoing-list__description {
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    color: $secondaryTextColor;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    text-align: center;
+    padding: 27px 0;
+}

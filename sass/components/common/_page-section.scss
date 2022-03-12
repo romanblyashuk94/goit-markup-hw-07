@@ -1,0 +1,21 @@
+/* page-section */
+.page-section {
+    padding: 94px 0;
+    background-color: $primaryBackgroundColor;
+
+    &--withoutTopPadding {
+        padding-top: 0;
+    }
+
+    &--secondaryBackgroundColor {
+        background-color: $secondaryBackgroundColor;
+    }
+}
+
+.page-section__title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}

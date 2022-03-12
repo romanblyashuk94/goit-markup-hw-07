@@ -1,0 +1,23 @@
+/* hero styles */
+.hero-section {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), 
+                                               rgba(47, 48, 58, 0.4)), 
+                      url(../images/heroBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.hero-section__title {
+    margin: 0 auto 30px;
+    max-width: 696px;
+    color: $secondaryTextColor;
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
